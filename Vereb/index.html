@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="newcss.css">
+            <script language="javascript" type="text/javascript" src="../libraries/matter.js"></script>
+            <script language="javascript" type="text/javascript" src="../libraries/p5.js"></script>
+        <title>Alex</title>
+    </head>
+    <body>
+         <div id="x-tengely" class="tengely">
+    <label for="gravity-x">x-tengely</label>
+    <input id="gravity-x" type="range" value="0" min="-1" max="1" step="0.1" oninput="gravOutputUpdate('x-val', 'x', value);">
+    <output for="gravity-x" id="x-val" class="output">0</output>
+  </div>
+
+  <div id="y-tengely" class="tengely">
+    <label for="gravity-y">y-tengely</label>
+    <input id="gravity-y" type="range" value="0" min="-1" max="1" step="0.1" oninput="gravOutputUpdate('y-val', 'y', value)">
+    <output for="gravity-y" id="y-val" class="output">0</output>
+  </div>
+
+        <script src="matter.js"></script>
+        <script src="p5.dom.js"></script>
+        <script src="p5.sound.js"></script>
+        <script src="p5.js"></script>
+        <audio src="1.mp3" controls autoplay></audio>
+        <script src="newjavascript.js"></script>
+
+    </body>
+</html>
